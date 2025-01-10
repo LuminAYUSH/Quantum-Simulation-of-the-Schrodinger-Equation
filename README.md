@@ -31,13 +31,9 @@ The simulations provide insights into quantum phenomena such as **confinement**,
 
 ### Schrödinger Equation
 The time-dependent Schrödinger equation is given by:
-\[
-H|\psi(t)\rangle = i\hbar \frac{\partial}{\partial t}|\psi(t)\rangle
-\]
+$$H|\psi(t)\rangle = i\hbar \frac{\partial}{\partial t}|\psi(t)\rangle$$
 For a time-independent Hamiltonian:
-\[
-H = K + V = \frac{p^2}{2m} + V
-\]
+$$H = K + V = \frac{p^2}{2m} + V$$
 Simulations use the **Trotter-Suzuki decomposition** to approximate time evolution.
 
 ### Quantum Circuit Design
@@ -53,11 +49,11 @@ Simulations use the **Trotter-Suzuki decomposition** to approximate time evoluti
 
 ## Experiments
 ### 1. Free Particle
-- Simulated a particle with no potential (\(V = 0\)).
+- Simulated a particle with no potential $V = 0$.
 - Results demonstrate the spreading of the wave packet over time.
   
 ### 2. Infinite Square Well
-- Modeled using a high potential barrier (\(V \to \infty\)) at the boundaries.
+- Modeled using a high potential barrier $V \to \infty$ at the boundaries.
 - Observed reflections with no tunneling effects.
 
 ### 3. Quantum Tunneling
@@ -80,13 +76,13 @@ Simulations use the **Trotter-Suzuki decomposition** to approximate time evoluti
 
 ---
 
-## Visuals
-- **Quantum Tunneling**:  
-  ![Quantum Tunneling](path/to/tunneling_image.png)  
+## Example Visuals
+- **Quantum Tunneling**:
+  ![Quantum Tunneling](https://github.com/user-attachments/assets/35982a09-c787-44d0-b2c9-857fa99ee941)
 
-- **Simple Harmonic Oscillator**:  
-  ![SHO Wavefunctions](path/to/sho_image.png)
-
+- **Simple Harmonic Oscillator**:
+  ![SHO Wavefunctions](https://github.com/user-attachments/assets/09ad9f89-997e-4ac0-8f24-33367beec32f)
+  
 ---
 
 ## Future Directions
